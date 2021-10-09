@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>KITAB INFORMÁTICA LTDA - ME</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="Análise e Desenvolvimento de Softwares utilizando tecnologias como Dot.Net Core, PHP (Laravel), NodeJS, SQL-Server e MySQL/MariaDB.">
+  <meta name="litmsProfileName" content="homepage-guest-frontend">
+  <meta property="og:site_name" content="KITAB">
+  <meta property="og:title" content="KITAB Informática Ltda. - ME">
+  <meta property="og:description" content="Análise e Desenvolvimento de Softwares utilizando tecnologias como Dot.Net Core, PHP (Laravel), NodeJS, SQL-Server e MySQL/MariaDB.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kitab.com.br/">
+  <!--<meta property="og:image" content="https://kitab.com.br//images//favicon.ico">-->
+  <link rel="canonical" href="https://kitab.com.br/">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <h1>Consulta de Clima/Temperatura</h1>
+  <form class="busca">
+    <input type="search" id="searchInput" placeholder="Digite uma cidade..." />
+    <button>Buscar</button>
+  </form>
+  <div class="resultado">
+    <div class="titulo">--</div>
+    <div class="info">
+      <div class="temp">
+        <div class="tempTitulo">Temperatura</div>
+        <div class="tempInfo">-- <sup>ºC</sup></div>
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+      </div>
+      <div class="vento">
+        <div class="ventoTitulo">Vento</div>
+        <div class="ventoInfo">-- <span>km/h</span></div>
+        <div class="ventoArea">
+          <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="aviso"></div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
